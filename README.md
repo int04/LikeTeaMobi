@@ -3,6 +3,8 @@ Giới thiệu
 viết trên Nodejs, sử dụng để tự động thả thích các bình luận tại diễn đàn teamobi.com
 Nếu có bất kì câu hỏi nào cần hỗ trợ xin vui lòng liên hệ https://fb.com/ducnghiait.
 
+Video setup & demo : https://www.youtube.com/watch?v=WYThTxoaP8Q&feature=youtu.be
+
 Installation
 ============
 
@@ -41,8 +43,14 @@ job2.start();
 Function
 ============
 ```javascript
-var tim = new TeaMobi(taikhoan,matkhau); // bắt đầu class function bot.
-tim.tym; // bắt đầu một lệnh toàn tập mới ( login, curl)
-tim.send() // tiến hành like.
+new TeaMobi(taikhoan,matkhau); // bắt đầu class function bot.
+this.tym; // bắt đầu một lệnh toàn tập mới ( login, curl)
+this.curl() // tiến hành tạo cookie & token.
+this.login(token) // đăng nhập diễn đàn.
+this.baiviet() /// lấy html bài viết.
+this.timkiem(html) // lấy dữ liệu url bài viết.
+this.list() // lấy id của các bình luận trong bài viết.
+this.like() // tạo data id bài viết
+this.curl() // tiến hành like bài viết.
 
 ```
