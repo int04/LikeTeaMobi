@@ -16,7 +16,7 @@ class TeaMobi
 {
 	/*
 	- Author: Tran Do Duc Nghia.
-	- Facebook : https://fb.com/ducnghiast
+	- Facebook : https://fb.com/ducnghiait
 	- Email : Trandoducnghia@gmail.com
 	- Function Name: TeaMobi auto login & tim.
 	- Date of writing : 7h - 14/05/2020.
