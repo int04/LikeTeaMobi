@@ -1,0 +1,20 @@
+{
+  "name": "Like TeaMobi Nodejs",
+  "version": "1.0.0",
+  "engines": {
+    "node": "10.0"
+  },
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node team.js"
+  },
+  "keywords": [],
+  "author": "Tran Do Duc Nghia",
+  "license": "ISC",
+  "dependencies": {
+    "request": "^2.88.2",
+    "cron": "1.8.2",
+    "fs": "7.2.3"
+  }
+}
